@@ -1,58 +1,77 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
+body{
     background-color: rgba(1, 1, 78, 0.473);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /* box-sizing: border-box; */
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    padding: 20px;
 }
-
-.Atrangi-login-page {
+/* header{
+ background-color: rgba(0, 0, 0, 0.719);
+ color: white;
+ padding: 20px;
+}
+header li{
+    margin: auto;
+    list-style: none;
+}
+header li:hover{
+ color: aqua;
+ cursor: pointer;
+ font-style: italic;
+ font-weight: bold;
+} */
+.Atrangi-login-page{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    box-sizing: border-box;
     box-shadow: 8.9px 8.9px 11.2px rgba(245, 245, 245, 0.918);
     text-align: center;
-    width: 100%;
-    max-width: 560px;
+    height: 540px;
+    width: 560px;
     background-color: rgb(87, 6, 6);
-    padding: 30px 20px;
+    padding: 30px 60px 30px 60px;
+    margin: 40px 90px 40px 90px;
     border-radius: 50px;
 }
-
-.Atrangi-login-page h1, .Atrangi-login-page p {
+.Atrangi-login-page h1,p {
     color: aqua;
     font-weight: bold;
     padding: 10px;
 }
-
 .Atrangi-login-page h1:hover {
     color: rgba(111, 0, 255, 0.74);
+    font-weight: bold;
     font-style: italic;
+    padding: 10px;
 }
-
 .Atrangi-login-page p:hover {
     color: rgba(0, 255, 55, 0.74);
+    font-weight: bold;
     font-style: italic;
+    padding: 10px;
 }
-
-.Atrangi-login-page input {
+.Atrangi-login-page input{
     padding: 20px;
-    margin: 15px 0;
+    margin: 15px;
+    border: 2px solid gray;
     border-radius: 15px;
     height: 50px;
     width: 100%;
+    max-width: 400px;
     border: none;
     outline: none;
 }
-
-.Atrangi-login-page button {
+.Atrangi-login-page button{
     padding: 20px;
-    margin: 15px 0;
+    margin: 15px;
     height: 50px;
     width: 100%;
     max-width: 200px;
@@ -63,32 +82,39 @@ body {
     outline: none;
     border: none;
 }
-
-.Atrangi-login-page button:hover {
+.Atrangi-login-page button:hover{
     background-color: rgba(0, 0, 255, 0.507);
+    box-decoration-break: clone;
     color: white;
-    font-weight: bold;
-    font-size: medium;
+     font-weight: bold;
+     font-size: medium;
 }
-
 @media (max-width: 768px) {
-    .Atrangi-login-page {
+    body{
         padding: 20px;
-        border-radius: 20px;
+    }
+    .Atrangi-login-page{
+        width: 90%;
+        max-width: 400px;
+        padding: 20px;
+        /* height: auto;*/
+        border-radius: 15px; 
         box-shadow: 0 0 10px rgba(0,0,0,0.4);
     }
-    .Atrangi-login-page h1 {
+    .Atrangi-login-page h1{
         font-size: 20px;
     }
-    .Atrangi-login-page p {
+    .Atrangi-login-page p{
         font-size: 14px;
     }
-    .Atrangi-login-page input {
+    .Atrangi-login-page input{
         font-size: 14px;
         padding: 10px;
+        
     }
-    .Atrangi-login-page button {
+    .Atrangi-login-page button{
         font-size: 14px;
         padding: 10px;
+    
     }
 }
