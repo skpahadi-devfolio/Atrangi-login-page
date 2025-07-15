@@ -34,7 +34,7 @@ header li:hover{
     box-sizing: border-box;
     box-shadow: 8.9px 8.9px 11.2px rgba(245, 245, 245, 0.918);
     text-align: center;
-    height: auto;
+    /* height: auto; */
     width: 560px;
     background-color: rgb(87, 6, 6);
     padding: 30px 60px 30px 60px;
@@ -60,7 +60,8 @@ header li:hover{
 }
 .Atrangi-login-page input{
     padding: 20px;
-    margin: 15px;
+    margin: 15px auto;
+    display: block;
     border: 2px solid gray;
     border-radius: 15px;
     height: 50px;
