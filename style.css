@@ -113,14 +113,15 @@ header li:hover{
   .Atrangi-login-page input {
     font-size: 14px;
     padding: 10px;
-  }
+    margin: 10px auto;    /* center pe align ho */
+    display: block;
+}
   .Atrangi-login-page button {
     font-size: 14px;
     padding: 10px;
   }
 }
 
-/* Very small screens - max-width 480px */
 @media (max-width: 480px) {
   .Atrangi-login-page {
     width: 95%;
@@ -137,4 +138,13 @@ header li:hover{
     font-size: 12px;
     padding: 8px;
   }
+  .Atrangi-login-page input {
+    margin: 10px auto;      /* yeh add karo */
+    display: block;         /* yeh bhi add karo */
+  }
+  .Atrangi-login-page button {
+    margin: 10px auto;      /* optional, consistency ke liye */
+    display: block;
+  }
 }
+
